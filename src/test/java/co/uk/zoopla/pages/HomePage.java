@@ -18,13 +18,26 @@ public class HomePage extends BasePage {
     private WebElement locationField;
     @FindBy(id = "forsale_price_min")
     private WebElement minPrice;
+    @FindBy(name = "price_max")
+    private WebElement maxPrice;
     @FindBy(id = "search-submit")
     private WebElement searchButton;
+    @FindBy(css = ".ui-button-primary.ui-cookie-accept-all-medium-large")
+    private WebElement acceptAllCookie;
 
     public void enterLocation(String location)
     {
+
+        acceptAll();
+
         locationField.clear();
         locationField.sendKeys(location);
+    }
+
+    public void acceptAll()
+    {
+        acceptAllCookie.click();
+
     }
 
     public void selectMinimumPrice(String miniPrice)
@@ -32,9 +45,16 @@ public class HomePage extends BasePage {
         selectByText(minPrice, miniPrice);
     }
 
+    public void selectMaximumPrice(String priceMax)
+    {
+        selectByText(maxPrice, priceMax);
+    }
+
     public SearchResultPage clickOnSearchButton()
     {
         searchButton.click();
         return new SearchResultPage(driver);
     }
+
+
 }

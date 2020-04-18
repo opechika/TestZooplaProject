@@ -1,7 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1f2f0a47-4bb5-4501-9898-f85e8c096a6d" name="Default Changelist" comment="" />
+    <list default="true" id="1f2f0a47-4bb5-4501-9898-f85e8c096a6d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/features/CustomerCanSearchForRentProperties.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/pages/ProductDetailsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/runners/TestRunnerRegression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/runners/TestRunnerSmoke.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/utilities/StoredValues.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/common/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/common/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/features/CustomerCanSearchForSaleProperties.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/features/CustomerCanSearchForSaleProperties.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/hooks/Hook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/hooks/Hook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/pages/SearchResultPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/pages/SearchResultPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/stepDefinitions/ForSaleSearchSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/uk/zoopla/stepDefinitions/ForSaleSearchSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-failures.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-failures.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-features.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-features.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-steps.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-steps.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/overview-tags.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/report-feature_879213261.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pretty-cucumber/cucumber-html-reports/report-feature_879213261.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/report.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/report.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/co/uk/zoopla/common/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/co/uk/zoopla/common/Driver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/co/uk/zoopla/hooks/Hook.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/co/uk/zoopla/hooks/Hook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/co/uk/zoopla/pages/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/co/uk/zoopla/pages/BasePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/co/uk/zoopla/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/co/uk/zoopla/pages/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/co/uk/zoopla/pages/SearchResultPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/co/uk/zoopla/pages/SearchResultPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/co/uk/zoopla/stepDefinitions/ForSaleSearchSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/co/uk/zoopla/stepDefinitions/ForSaleSearchSteps.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +45,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -29,7 +59,19 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1VzACiUJIhChCNMnutWQ5REeikc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/co/uk/zoopla/features" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\workspace\test\TestZooplaProject\src\test\java\co\uk\zoopla\features" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="co.uk.zoopla.runners" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\workspace\test\TestZooplaProject\src\test\java\co\uk\zoopla\features" />
     </key>
@@ -46,7 +88,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestRunner">
+  <component name="RunManager" selected="JUnit.TestRunnerRegression">
     <configuration name="Scenario: Customer can search for any property (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="4" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/co/uk/zoopla/features/CustomerCanSearchForSaleProperties.feature" />
@@ -99,8 +141,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestRunnerRegression" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestZooplaProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.uk.zoopla.runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="co.uk.zoopla.runners" />
+      <option name="MAIN_CLASS_NAME" value="co.uk.zoopla.runners.TestRunnerRegression" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRunnerSmoke" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestZooplaProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.uk.zoopla.runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="co.uk.zoopla.runners" />
+      <option name="MAIN_CLASS_NAME" value="co.uk.zoopla.runners.TestRunnerSmoke" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestRunnerRegression" />
+        <item itemvalue="JUnit.TestRunnerSmoke" />
         <item itemvalue="JUnit.TestRunner" />
         <item itemvalue="Cucumber java.Scenario: Customer can search for any property (1)" />
         <item itemvalue="Cucumber java.Scenario: Customer can search for any property" />
@@ -119,5 +193,18 @@
       <updated>1578245423200</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
